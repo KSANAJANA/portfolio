@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #e7e1e1ab;
+    color: #0c0230;
+  }
+  
+  header {
+    background-color: #0c0101;
+    color: rgb(214, 212, 228);
+    padding: 20px;
+    text-align:center;
+  }
+
+ 
+  img{
+ height: 160px;
+   width: 170px;
+   position: absolute; /* or relative, fixed, sticky */
+   top: 10px;
+   left: 100px;
+
+  }
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333; /* optional: border */
+    
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: rgb(6, 99, 143);
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  .skills, .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: rgb(216, 210, 210);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  #topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #01012c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
